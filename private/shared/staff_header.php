@@ -1,3 +1,7 @@
+<?php
+  if(!isset($page_title)) { $page_title = 'Staff Area'; }
+?>
+
 <!doctype html>
 
 <html lang="en">
@@ -6,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" media="all" href="../stylesheets/staff.css" />
-  <title>GBI</title>
+  <title>GBI - <?php echo $page_title; ?></title>
 </head>
 <body>
   <header>
